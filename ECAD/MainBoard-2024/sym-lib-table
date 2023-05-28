@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SparkFun-RF")(type "Legacy")(uri "${KIPRJMOD}/Librairies/Symbols/SparkFun-RF.lib")(options "")(descr ""))
+)

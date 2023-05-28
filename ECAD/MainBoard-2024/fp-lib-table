@@ -1,0 +1,9 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "teensy")(type "KiCad")(uri "${KIPRJMOD}/Librairies/teensy.pretty")(options "")(descr ""))
+  (lib (name "aisler")(type "KiCad")(uri "${KIPRJMOD}/Librairies/aisler.pretty")(options "")(descr ""))
+  (lib (name "digikey-footprints")(type "KiCad")(uri "${KIPRJMOD}/Librairies/digikey/digikey-footprints.pretty")(options "")(descr ""))
+  (lib (name "RF")(type "KiCad")(uri "${KIPRJMOD}/Librairies/RF.pretty")(options "")(descr ""))
+  (lib (name "byv34-400")(type "KiCad")(uri "${KIPRJMOD}/Librairies/byv34-400")(options "")(descr ""))
+  (lib (name "TEN 50-2411")(type "KiCad")(uri "${KIPRJMOD}/Librairies/TEN 50-2411")(options "")(descr ""))
+)
