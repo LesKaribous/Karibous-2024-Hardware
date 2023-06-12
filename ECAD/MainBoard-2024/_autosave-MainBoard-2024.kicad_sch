@@ -7629,7 +7629,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 279.4 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f53b1363-c9fd-4dbc-a1fb-2670309c4e90)
-    (property "Reference" "J?" (at 278.13 114.3 0)
+    (property "Reference" "J15" (at 278.13 114.3 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Conn_01x02" (at 281.4321 112.3566 0)
@@ -7646,7 +7646,7 @@
     (instances
       (project "MainBoard-2024"
         (path "/b1b0855c-c4b6-47dd-8ac8-2346963564b3"
-          (reference "J?") (unit 1)
+          (reference "J15") (unit 1)
         )
       )
     )
