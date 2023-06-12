@@ -480,8 +480,8 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "mainBoard004.step",
-      "vrml": "mainBoard-2023.wrl"
+      "step": "mainBoard-2024.step",
+      "vrml": "mainBoard-2024.wrl"
     },
     "page_layout_descr_file": ""
   },
