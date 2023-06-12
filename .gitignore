@@ -1,2 +1,9 @@
 
 *.FCStd1
+*.FCStd1
+MCAD/table_2024.FCStd1
+MCAD/robots_2024.FCStd1
+MCAD/robot_holonome.FCStd1
+MCAD/mechanical-parts/colonne-moteur.FCStd1
+MCAD/electronical-parts/deplacement-sensor.FCStd1
+MCAD/electronical-parts/beacon_assembled.FCStd1
