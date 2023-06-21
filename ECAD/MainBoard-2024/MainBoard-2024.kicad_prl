@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 49,
+    "active_layer": 31,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -65,13 +65,38 @@
       36
     ],
     "visible_layers": "fffffff_ffffffff",
-    "zone_display_mode": 0
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "MainBoard-2024.kicad_prl",
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "MainBoard-2024.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": -1928,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      },
+      {
+        "name": "MainBoard-2024.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": -8,
+          "pos_y": -8,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      }
+    ]
   }
 }
