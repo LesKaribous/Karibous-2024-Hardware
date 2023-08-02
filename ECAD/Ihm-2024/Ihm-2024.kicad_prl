@@ -72,19 +72,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "Ihm-2024.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 2,
-          "maximized": false,
-          "pos_x": 1912,
-          "pos_y": -8,
-          "size_x": 976,
-          "size_y": 1056
-        }
-      }
-    ]
+    "files": []
   }
 }
