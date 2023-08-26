@@ -4,7 +4,7 @@
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.09999999999999999,
-        "copper_line_width": 0.19999999999999998,
+        "copper_line_width": 0.09999999999999999,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
@@ -27,25 +27,25 @@
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
         "fab_text_upright": false,
-        "other_line_width": 0.15,
+        "other_line_width": 0.09999999999999999,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
-        "silk_line_width": 0.15,
+        "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
-        "silk_text_size_h": 1.0,
-        "silk_text_size_v": 1.0,
-        "silk_text_thickness": 0.15,
+        "silk_text_size_h": 0.7999999999999999,
+        "silk_text_size_v": 0.7999999999999999,
+        "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,26 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_issues|128279930|102670408|063975eb-3d00-4146-9849-5b8405ca5cfc|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|131052918|102909274|4c23a88e-b955-4ce7-8667-286446a40475|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|133566512|102889637|30f05b4b-6622-4225-b605-5322966e77fd|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|135883732|102693262|428f5b9f-6588-43e1-803f-0212aed295a6|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|138888262|103144924|2de6cf35-6933-4a25-94f7-19fd5f5b3833|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|139827000|87630000|16a2a379-dbf1-4913-932b-7c9cf7090a7b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|139827000|92583000|6b1f4aed-3de2-4903-8dcf-eddfd25c9d28|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|139957140|83542484|e675c014-2550-4585-a565-8639b4622109|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|140081000|90170000|a05460df-f7cc-4bc7-a59d-e0102ba321f4|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|141027366|102590241|68925c27-83a6-4527-91fb-400e74cc02d4|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|143948625|103138267|31ee05ab-50ad-4254-b1ba-c27dee62d32b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|147347857|102489000|ecdcfb3d-d273-486c-bc42-dff6963fe362|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|150622000|102616000|163835fc-c5bf-4236-9c57-b0bddb1d7909|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|151130000|87630000|c5e8f7c1-2808-46e3-8b4e-67578642ea3a|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|151130000|92710000|7bfc9319-cb81-42cd-8d46-95642c7e00fe|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|151200000|95250000|56d63135-7665-4383-a41d-00370809b8e9|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|151511000|89562856|760f77f1-e485-4c1e-846a-578a4390dd46|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_issues|151638000|84963000|908ab420-f8ea-4e72-ac54-744904d0af19|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -113,19 +132,19 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
+        "min_microvia_diameter": 0.0,
+        "min_microvia_drill": 0.0,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_through_hole_diameter": 0.44999999999999996,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.09999999999999999,
-        "min_via_diameter": 0.5,
+        "min_via_diameter": 0.7999999999999999,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -173,15 +192,18 @@
       ],
       "track_widths": [
         0.0,
-        0.4,
-        0.6,
-        0.8,
+        0.2,
+        0.5,
         1.0
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.8,
+          "drill": 0.45
         }
       ],
       "zones_allow_external_fillets": false
@@ -416,19 +438,36 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.25,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.25,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_drill": 0.45,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.175,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "line_style": 0,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.45,
+        "name": "Min",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.8,
+        "via_drill": 0.45,
         "wire_width": 6
       }
     ],
